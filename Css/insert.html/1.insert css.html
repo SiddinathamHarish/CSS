@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="icon" href="https://miro.medium.com/v2/resize:fit:370/1*Vm20WsMZEsN98PjssRsHNg.png">
+    <link rel="stylesheet" href="./1.1 -style.css">
+    <style>
+        center{
+            background-color: rebeccapurple;
+        }
+        h3{
+            color: darkolivegreen;
+            background-color: aquamarine;
+            
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+        }
+        h2{
+            color: gold ;
+            text-align: center;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            font-size: 20px;
+            text-decoration-color: brown;
+        }
+        p{
+            color: cornflowerblue;
+        }
+
+
+
+    </style>
+</head>
+<body>
+       
+<h1><center style="color: red;">CSS</center></h1>
+<h3> <b>CSS--&gt;  Cascading(flow of styles) Styles Sheets <br> 
+        --  To create webpages more attractive for userinterface,using css to add styles to webpages <br>
+        Cascading Style Sheets (CSS) is used to format the layout of a webpage.
+
+With CSS, you can control the color, font, the size of text, the spacing between elements, how elements are positioned and laid out, what background images or background colors are to be used, different displays for different devices and screen sizes, and much more!
+
+</h3><br>
+        <hr>
+<br>
+<br>
+
+<p style="color: blueviolet;"><h2>We can Insert CSS in HTML 3 ways</h2> <br>
+
+    1.Inline Styles <br>
+    2.Internal Styles <br>
+    3.External Styles <br><br><br>
+<hr></p>
+
+1.Inlinestyles <br><br>
+An inline CSS is used to apply a unique style to a single HTML element.
+
+An inline CSS uses the style attribute of an HTML element. <br>
+
+    <a style="color: navy;" href="https://www.linkedin.com/feed/" target="_blank">Hello(target attribute)</a><br>
+    
+    <a style="color: red;" href="https://www.linkedin.com/feed/" >Hello</a> <hr><br><br>
+2.Internal Styles--&gt; to enter into head tag <br><br><br>
+         <pre> <i> &lt;head &gt;<br>
+             &lt;style &gt;<br>
+                Selector(-Target id){<br>
+                    background-color: lightgreen;<br>
+                    color: green; <br>
+                    text-align: center;<br>
+                    font-family: italic;<br>
+                    font-size: 20px; <br>
+
+                } 
+                 &lt;/style &gt;<br>
+            <pre> <i> &lt;/head &gt;<br></pre></i><br><hr><br><br>
+3.External Styles--&gt;   <br>
+<pre>An external style sheet is used when you want to define styles for multiple pages.
+
+Here is how it works:
+
+Each HTML page must include a reference to the external style sheet file inside the &lt;link&gt; element, inside the head section. <br>
+    <i>
+         &lt;head &gt;<br>
+         &lt;link rel="stylesheet" type="text/css" href="./mystyle.css"&gt;<br>
+          &lt;/head &gt;<br>
+
+    </i>
+    <pre>
+mystyle.css
+
+body {
+  background-color: powderblue;
+}
+h1 {
+  color: blue;
+}
+p {
+  color: red;
+}
+<br>
+<hr>
+</pre>
+important: <br>
+1st inline colour mandatory or default <br>
+if u want to give secoundary colour to add (!important-to override default value) <br>
+"color: green !important;"
+
+</pre>
+
+            
+
+    </b>
+</body>
+</html>

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+div > p {
+  background-color: yellow;
+}
+div h1 {
+  background-color: rgb(255, 153, 0);
+}
+div + h2{
+    background-color: blueviolet;
+}
+div ~ h4{
+    background-color: chartreuse;
+
+}
+</style>
+</head>
+<body>
+
+<h2>Combinators selectors</h2>
+
+<div>
+  <p>(Child) Paragraph 1 in the div.</p>
+  <p>(Child)Paragraph 2 in the div.</p>
+  <section>
+    
+    <h1>(Descendant Child )Paragraph 3 in the div (inside a section element).</h1>
+  </section>
+  <p>(Child)Paragraph 4 in the div.</p>
+</div>
+<h2>(Siblings)HARISH</h2>
+<p>Paragraph 5. Not in a div.</p>
+<p>Paragraph 6. Not in a div.</p>
+<p>Paragraph 7. After a div.</p>
+<p>Paragraph 8. After a div.</p>
+<h4>(general siblings)HI</h4>
+</body>
+</html>
